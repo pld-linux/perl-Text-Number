@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Text::Number - przeci±¿ona klasa do wypisywania liczb
 Name:		perl-Text-Number
 Version:	0.80
 Release:	12
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2971d31bc21dc22ca418055ab71291aa
@@ -24,7 +25,6 @@ Text::Number Perl module provides a facility for transparently
 configuring numbers to print the way you want them to. Calculations
 are always executed using the full precision of the number, but
 printing is rounded to the number of places of your choosing.
-
 
 %description -l pl
 Modu³ perla Text::Number udostêpnia funkcje do przezroczystego
