@@ -27,7 +27,7 @@ are always executed using the full precision of the number, but
 printing is rounded to the number of places of your choosing.
 
 %description -l pl
-Modu³ perla Text::Number udostêpnia funkcje do przezroczystego
+Modu³ Perla Text::Number udostêpnia funkcje do przezroczystego
 konfigurowania wypisywania liczb w ¿±dany sposób. Do obliczeñ zawsze
 u¿ywane s± liczby o maksymalnej precyzji, lecz podczas wypisywania s±
 one zaokr±glane do zadanej ilo¶ci miejsc dziesiêtnych.
