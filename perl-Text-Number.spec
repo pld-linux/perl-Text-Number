@@ -35,7 +35,7 @@ one zaokr±glane do zadanej ilo¶ci miejsc dziesiêtnych.
 %setup -q -n %{pnam}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
