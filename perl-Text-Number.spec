@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Number
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Number perl module
 Summary(pl):	Modu³ perla Text-Number
 Name:		perl-Text-Number
 Version:	0.80
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Number perl module.
 Modu³ perla Text-Number.
 
 %prep
-%setup -q -n Number
+%setup -q -n %{pnam}
 
 %build
 perl Makefile.PL
