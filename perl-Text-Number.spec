@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Number
-Summary:	Text-Number perl module
-Summary(pl):	Modu³ perla Text-Number
+Summary:	Text::Number perl module
+Summary(pl):	Modu³ perla Text::Number
 Name:		perl-Text-Number
 Version:	0.80
 Release:	9
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Number perl module.
+Text::Number perl module.
 
 %description -l pl
-Modu³ perla Text-Number.
+Modu³ perla Text::Number.
 
 %prep
 %setup -q -n %{pnam}
