@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Number
+%define		pdir	Text
+%define		pnam	Number
 Summary:	Text::Number Perl module - overloaded class for printing numbers
 Summary(pl):	Modu³ Perla Text::Number - przeci±¿ona klasa do wypisywania liczb
 Name:		perl-Text-Number
