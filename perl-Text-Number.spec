@@ -5,7 +5,7 @@ Summary:	Text-Number perl module
 Summary(pl):	Modu³ perla Text-Number
 Name:		perl-Text-Number
 Version:	0.80
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
