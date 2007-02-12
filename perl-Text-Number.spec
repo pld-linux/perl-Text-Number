@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Number
 Summary:	Text::Number Perl module - overloaded class for printing numbers
-Summary(pl):	Modu³ Perla Text::Number - przeci±¿ona klasa do wypisywania liczb
+Summary(pl.UTF-8):   ModuÅ‚ Perla Text::Number - przeciÄ…Å¼ona klasa do wypisywania liczb
 Name:		perl-Text-Number
 Version:	0.80
 Release:	12
@@ -26,11 +26,11 @@ configuring numbers to print the way you want them to. Calculations
 are always executed using the full precision of the number, but
 printing is rounded to the number of places of your choosing.
 
-%description -l pl
-Modu³ Perla Text::Number udostêpnia funkcje do przezroczystego
-konfigurowania wypisywania liczb w ¿±dany sposób. Do obliczeñ zawsze
-u¿ywane s± liczby o maksymalnej precyzji, lecz podczas wypisywania s±
-one zaokr±glane do zadanej ilo¶ci miejsc dziesiêtnych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Text::Number udostÄ™pnia funkcje do przezroczystego
+konfigurowania wypisywania liczb w Å¼Ä…dany sposÃ³b. Do obliczeÅ„ zawsze
+uÅ¼ywane sÄ… liczby o maksymalnej precyzji, lecz podczas wypisywania sÄ…
+one zaokrÄ…glane do zadanej iloÅ›ci miejsc dziesiÄ™tnych.
 
 %prep
 %setup -q -n %{pnam}
