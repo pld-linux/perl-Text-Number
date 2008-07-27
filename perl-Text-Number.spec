@@ -9,7 +9,7 @@ Summary:	Text::Number Perl module - overloaded class for printing numbers
 Summary(pl.UTF-8):	Moduł Perla Text::Number - przeciążona klasa do wypisywania liczb
 Name:		perl-Text-Number
 Version:	0.80
-Release:	12
+Release:	13
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
