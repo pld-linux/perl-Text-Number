@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Number
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Number Perl module - overloaded class for printing numbers
 Summary(pl.UTF-8):	Moduł Perla Text::Number - przeciążona klasa do wypisywania liczb
 Name:		perl-Text-Number
